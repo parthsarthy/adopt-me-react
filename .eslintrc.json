@@ -2,7 +2,7 @@
     //  extends are rules
     "extends": [
         "eslint:recommended",
-        "plugin:import/error",
+        "plugin:import/errors",
         "plugin:react/recommended",
         "plugin:jsx-a11y/recommended",
         // these 2 have to be at end because these 2 turn things off
@@ -12,11 +12,13 @@
     "rules": {
         "react/prop-types": 0,
         // warning if we have console statements
-        "no-console": 1
+        "no-console": 1,
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn"
     },
     // new abilities for eslint
     // import - import export checks
-    "plugins": ["react", "import", "jsx-a11y"],
+    "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module",
