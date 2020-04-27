@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { render } from 'react-dom'
 
 import Details from './Details'
-// import Details from './Details'
 import SearchParams from './SearchParams'
 import ThemeContext from './ThemeContext'
 
