@@ -3,7 +3,7 @@ import React from 'react'
 export default class Carousel extends React.Component {
     state = { photos: [], active: 0 }
 
-    static getDerivedStatesFromProps({ media }) {
+    static getDerivedStateFromProps({ media }) {
         let photos = ['http://placeorgi.com/600/600']
         if (media.length) {
             photos = media.map(({ large }) => large)
@@ -11,7 +11,7 @@ export default class Carousel extends React.Component {
         return { photos }
     }
 
-    handleIndexClick(event) {
+    handleIndexClick = (event) => {
         this.setState({ active: +event.target.dataset.index })
     }
 
