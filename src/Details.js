@@ -1,7 +1,9 @@
 import pet from '@frontendmasters/pet'
 import React from 'react'
+
 import Carousel from './Carousel'
 import ErrorBoundary from './ErrorBoundary'
+import ThemeContext from './ThemeContext'
 
 export class Details extends React.Component {
     state = { loading: true }
@@ -40,7 +42,14 @@ export class Details extends React.Component {
                 <div>
                     <h1>{name}</h1>
                     <h2>{`${animal} - ${breed} - ${location}`}</h2>
-                    <button>Adopt {name}</button>
+                    <ThemeContext.Consumer>
+                        {(themeHook) => (
+                            <button style={{ backgroundColor: themeHook[0] }}>
+                                Adopt {name}
+                            </button>
+                        )}
+                    </ThemeContext.Consumer>
+
                     <p>{description}</p>
                 </div>
             </div>
