@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import pet, { ANIMALS } from '@frontendmasters/pet'
 import useDropdown from './useDropDown'
-import { async } from 'q'
+// import { async } from 'q'
+import Results from './Results'
 
 const SearchParams = () => {
     const [location, setLocation] = useState('Seattle, WA')
@@ -31,7 +32,7 @@ const SearchParams = () => {
             <form
                 onSubmit={(e) => {
                     e.preventDefault()
-                    requestPets
+                    requestPets()
                 }}
             >
                 <label htmlFor="location">
@@ -47,6 +48,7 @@ const SearchParams = () => {
                 <BreedDropDown />
                 <button>Submit</button>
             </form>
+            <Results pets={pets} />
         </div>
     )
 }
