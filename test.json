@@ -1,0 +1,68 @@
+{
+    "animal": {
+        "id": 44594159,
+        "organization_id": "WA132",
+        "url": "https://www.petfinder.com/dog/fat-boy-slim-44594159/wa/stanwood/noah-wa132/?referrer_id=44e48166-8259-4b23-8420-bbd2dc9c2079",
+        "type": "Dog",
+        "species": "Dog",
+        "breeds": {
+            "primary": "Rottweiler",
+            "secondary": null,
+            "mixed": true,
+            "unknown": false
+        },
+        "colors": {
+            "primary": "Black",
+            "secondary": "Yellow / Tan / Blond / Fawn",
+            "tertiary": null
+        },
+        "age": "Adult",
+        "gender": "Male",
+        "size": "Extra Large",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": null,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": { "children": null, "dogs": null, "cats": null },
+        "tags": [],
+        "name": "Fat Boy Slim",
+        "description": "Meet Fat Boy Slim! This boy is sure to win your heart with his sweet nature and playful ways. Some...",
+        "photos": [
+            {
+                "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/44594159/1/?bust=1556767422&width=100",
+                "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/44594159/1/?bust=1556767422&width=300",
+                "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/44594159/1/?bust=1556767422&width=600",
+                "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/44594159/1/?bust=1556767422"
+            },
+            {
+                "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/44594159/2/?bust=1556767426&width=100",
+                "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/44594159/2/?bust=1556767426&width=300",
+                "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/44594159/2/?bust=1556767426&width=600",
+                "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/44594159/2/?bust=1556767426"
+            }
+        ],
+        "status": "adoptable",
+        "published_at": "2019-05-02T03:24:45+0000",
+        "contact": {
+            "email": "adopt@thenoahcenter.org",
+            "phone": "360-629-7055   ",
+            "address": {
+                "address1": "31300 Brandstrom Road",
+                "address2": null,
+                "city": "Stanwood",
+                "state": "WA",
+                "postcode": "98292",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": { "href": "/v2/animals/44594159" },
+            "type": { "href": "/v2/types/dog" },
+            "organization": { "href": "/v2/organizations/wa132" }
+        }
+    }
+}
