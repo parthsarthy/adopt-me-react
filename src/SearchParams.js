@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
 import pet, { ANIMALS } from '@frontendmasters/pet'
-import useDropdown from './useDropDown'
-// import { async } from 'q'
+import React, { useEffect, useState } from 'react'
+
 import Results from './Results'
+import useDropdown from './useDropDown'
 
 const SearchParams = () => {
     const [location, setLocation] = useState('Seattle, WA')
